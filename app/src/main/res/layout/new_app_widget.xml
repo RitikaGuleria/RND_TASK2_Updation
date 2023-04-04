@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.RND_TASK2_Updation.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.RND_TASK2_Updation.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="95dp"
+        android:text="@string/count"
+        android:textColor="@color/white"
+        android:textSize="56dp"
+        android:textStyle="bold| italic">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="186dp"
+        android:text="Click"
+        android:textStyle="bold">
+
+    </Button>
+
+</RelativeLayout>
